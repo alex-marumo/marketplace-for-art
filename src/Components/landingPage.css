@@ -1,0 +1,89 @@
+/* Styles for the landing page */
+.landing-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.landing-image {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.landing-image .logo {
+    max-width: 100%;
+    height: auto;
+}
+
+.landing-content {
+    text-align: center;
+}
+
+.landing-content h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.landing-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.landing-content .btn {
+    width: 150px;
+    height: 45px;
+    background: #000;
+    border: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 700;
+    margin: 10px;
+    outline: none;
+}
+
+.landing-content .btn:hover {
+    background: #333;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .landing-content h1 {
+        font-size: 36px;
+    }
+
+    .landing-content p {
+        font-size: 16px;
+    }
+
+    .landing-content .btn {
+        width: 120px;
+        height: 40px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .landing-content h1 {
+        font-size: 28px;
+    }
+
+    .landing-content p {
+        font-size: 14px;
+    }
+
+    .landing-content .btn {
+        width: 100px;
+        height: 35px;
+        font-size: 12px;
+    }
+}
