@@ -22,7 +22,7 @@ function App() {
           <Route path="/loginSignUp" element={<LoginSignUp toggleForm={toggleForm} />} />
           <Route path="/login" element={<Login toggleForm={toggleForm} />} />
           <Route path="/register" element={<Register toggleForm={toggleForm} />} />
-          <Route path="/forgot-password" element={<ForgotPassword toggleForm={toggleForm} />} />
+          <Route path="/forgotPassword" element={<ForgotPassword toggleForm={toggleForm} />} />
         </Routes>
       </div>
     </Router>
